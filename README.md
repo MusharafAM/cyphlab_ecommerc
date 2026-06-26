@@ -67,22 +67,18 @@ This is a fairly standard **layered Flutter structure**: `models` (plain data cl
 
 ## 🚀 Setup & run instructions
 
-You'll need the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed and a device/emulator (or Chrome, for web).
+You'll need the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed and a device/emulator.
 
-1. **Create a fresh Flutter project shell** (this gives you the `android/`, `ios/`, etc. platform folders that aren't included in this repo):
+1. **Clone the repository:**
    ```bash
-   flutter create cyphmart_app
-   cd cyphmart_app
+   git clone https://github.com/MusharafAM/cyphlab_ecommerc.git
+   cd cyphlab_ecommerc
    ```
-2. **Copy in this project's files**, overwriting the generated `lib/` folder and `pubspec.yaml`:
-   - Delete the generated `lib/main.dart`
-   - Copy this repo's entire `lib/` folder into your new project
-   - Copy this repo's `pubspec.yaml`, replacing the generated one (you can keep your own `name:` field if you prefer, just make sure it stays a valid Dart package name)
-3. **Install dependencies:**
+2. **Install dependencies:**
    ```bash
    flutter pub get
    ```
-4. **Run the app:**
+3. **Run the app:**
    ```bash
    flutter run
    ```
@@ -95,13 +91,6 @@ flutter build apk --release
 ```
 The APK will be generated at `build/app/outputs/flutter-apk/app-release.apk`.
 
-### Pushing to your own GitHub repo
-This project folder already has a local git history (see commits). To push it:
-```bash
-git remote add origin <your-empty-github-repo-url>
-git branch -M main
-git push -u origin main
-```
 
 
 
