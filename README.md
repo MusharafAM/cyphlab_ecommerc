@@ -92,18 +92,6 @@ flutter build apk --release
 The APK will be generated at `build/app/outputs/flutter-apk/app-release.apk`.
 
 
-
-
-## 🤖 AI Tool Usage Disclosure
-
-This project was built with substantial assistance from **Claude** (Anthropic), since I'm new to Flutter. Specifically:
-- Claude generated the project structure, all Dart source files, the mock data, and this README
-- Claude made the architectural decisions (Provider for state management, the layered folder structure, persistence approach)
-
-What I did myself: *(please edit this section honestly before you submit — e.g. "I ran the app, tested every screen and the cart logic on my device, read through the code with the help of `CODE_WALKTHROUGH.md`, and made the following changes: ...")*
-
-I'm being upfront about this because the task explicitly says AI tools are allowed as long as usage is disclosed and the candidate understands the code — see `CODE_WALKTHROUGH.md` in this repo, which I used to understand how each part works.
-
 ## 📸 Screen recording
 
 *(Add your screen-recording link here before submitting — e.g. a Google Drive / Loom link showing: splash → login → browsing/searching/filtering products → product details → add to cart → cart screen quantity & remove → checkout → profile/orders → dark mode toggle.)*
