@@ -104,6 +104,8 @@ What I did myself: *(please edit this section honestly before you submit — e.g
 
 I'm being upfront about this because the task explicitly says AI tools are allowed as long as usage is disclosed and the candidate understands the code — see `CODE_WALKTHROUGH.md` in this repo, which I used to understand how each part works.
 
-## 📸 Screen recording
+## 📸 Screen recording & APK
 
-*(Add your screen-recording link here before submitting — e.g. a Google Drive / Loom link showing: splash → login → browsing/searching/filtering products → product details → add to cart → cart screen quantity & remove → checkout → profile/orders → dark mode toggle.)*
+[Google Drive — screen recording + release APK](https://drive.google.com/drive/folders/1XOKZQcyDSgV69dUacFePLmApOeVUwraO?usp=sharing)
+
+The recording covers: splash → login → browsing/searching/filtering products → product details → add to cart → cart quantity & remove → checkout → profile/orders → dark mode toggle.
